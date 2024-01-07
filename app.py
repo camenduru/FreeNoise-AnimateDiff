@@ -205,7 +205,7 @@ def ui():
     with gr.Blocks(css=css) as demo:
         gr.Markdown(
             """
-            # FreeNoise + AnimateDiff 🧬 Code: https://github.com/arthur-qiu/FreeNoise-AnimateDiff 📄 Paper: https://arxiv.org/abs/2310.15169 🌐 Page: http://haonanqiu.com/projects/FreeNoise.html
+            ### FreeNoise + AnimateDiff 🧬 Code: https://github.com/arthur-qiu/FreeNoise-AnimateDiff 📄 Paper: https://arxiv.org/abs/2310.15169 🌐 Page: http://haonanqiu.com/projects/FreeNoise.html
             """
         )
         with gr.Column(variant="panel"):
