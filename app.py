@@ -205,9 +205,7 @@ def ui():
     with gr.Blocks(css=css) as demo:
         gr.Markdown(
             """
-            # [AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning](https://arxiv.org/abs/2307.04725)
-            Yuwei Guo, Ceyuan Yang*, Anyi Rao, Yaohui Wang, Yu Qiao, Dahua Lin, Bo Dai (*Corresponding Author)<br>
-            [Arxiv Report](https://arxiv.org/abs/2307.04725) | [Project Page](https://animatediff.github.io/) | [Github](https://github.com/guoyww/animatediff/)
+            # FreeNoise + AnimateDiff 🧬 Code: https://github.com/arthur-qiu/FreeNoise-AnimateDiff 📄 Paper: https://arxiv.org/abs/2310.15169 🌐 Page: http://haonanqiu.com/projects/FreeNoise.html
             """
         )
         with gr.Column(variant="panel"):
@@ -325,4 +323,4 @@ def ui():
 
 if __name__ == "__main__":
     demo = ui()
-    demo.launch(share=True)
+    demo.queue().launch(share=True)
